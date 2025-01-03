@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Play your favourite music here</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="stylesheet" href="style.css";
+</head>
+<body>
+    <div class="full">
+    <div class="menu">
+        <div class="dots">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <ul class="list">
+            <pre>
+            <li id="homebutton"><i class="fa-solid fa-house"></i><a href="home.html">  Home</li></a>
+            <li><i class="fa-solid fa-magnifying-glass" id="openSearchBtn"></i>  Search</li>
+            <div id="searchModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 id="jj">Search</h2>
+                    <div class="tt">
+                    <input type="text" id="searchInput" placeholder="Search for a song...">
+                    <button id="searchButton">Search</button>
+                    <div id="results"></div>
+                    </div>
+                </div>
+            </div>
+            <li> <a href="library.html" ><i class="fa-regular fa-bookmark" ></i>  Your library</li></a>
+            </pre>
+
+        </ul>
+        <p class="playl">PLAYLIST</p>
+        <div class="opt">
+        
+            <i class="fa-regular fa-square-plus" style="color: #c5cace;" id="icon"></i>
+        <p>Create Playlist</p>
+        </div>
+        <div class="opt">
+            <i class="fa-brands fa-gratipay" style="color: #74C0FC;" id="icon2"></i>
+            <p>Liked Songs</p>
+        </div>
+
+        <div class="msg">
+            <p>2024 Greatest songs</p><br>
+            <p>Playlist #2</p><br>
+            <p>Playlist #4</p><br>
+            <p>RapCaviar</p><br>
+        </div>
+        
+    </div>
+    <div class="main">
+        <div class="uper">
+
+        <div class="arrow">
+
+        <i class="fa-solid fa-circle-left"></i>
+        <i class="fa-solid fa-circle-right"></i>
+        </div>
+       
+        <div class="spotify">
+            <img src="logo.webp" alt="logoo" height="100px" width="120px">
+
+        </div>
+        </div>
+
+        <div class="song">
+            <img src="covers/1.jpg" alt="song logo" height="350px" width="450px" id="gana_logo">
+            
+            
+
+        </div>
+        <div class="song_name">
+            <div id="n1">
+                Famous Enough By Navaan Sandhu
+
+            </div>
+
+        </div>
+      
+        <div class="bottom">
+        <div class="logos">
+            <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-backward-step" style="color: #ffffff;" id="previous"></i>
+            <i class="fa-solid fa-play" style="color: #ffffff;" id="masterplay"></i>
+            <i class="fa-solid fa-forward-step" style="color: #ffffff;" id="next"></i>
+            <i class="fa-solid fa-repeat" style="color: #ffffff;"></i>
+
+        
+        
+
+        </div>
+        <div class="bar">
+            <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">   
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Famous Enough</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tareekan</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Daaku b puja karde</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Bigad gaya</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Yaar rabb warge</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Yaar rabb warge</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Yaar rabb warge</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Yaar rabb warge</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Yaar rabb warge</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Yaar rabb warge</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Yaar rabb warge</span>
+                    <span class="songListPlay"><span class="timestamp">05:34 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+    <script src="app.js"></script>
+    <script src="home.js"></script>
+     
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <div class="total">
+    <div class="container">
+        <header>
+            <h1 class="lh">Your Library</h1>
+            <input type="text" id="search" placeholder="Search for songs..." />
+            <div class="spotify">
+                <img src="logo.webp" alt="logoo" height="100px" width="120px">
+    
+            </div>
+        </header>
+
+        <div class="music-list" id="musicList">
+           
+        </div>
+
+        <div class="player" id="musicPlayer">
+            <audio id="audioPlayer" controls>
+                <source id="audioSource" src="" type="audio/mp3" />
+                Your browser does not support the audio element.
+            </audio>
+            <div id="currentSong">
+                <p class="tt" id="songTitle">Select a song to play</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="library.js"></script>
+</body>
+</html>

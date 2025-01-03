@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0.75;
+    }
+    .full{
+        display: flex;
+    }
+.menu{
+    margin: 1rem;
+    }
+    
+
+.list{
+    list-style-type: none;
+    margin-top: 0.5rem;
+    }
+.playl{
+    font-size: 0.65rem;
+    font-family: de valencia;
+
+}
+.opt{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 0.7rem;
+}
+#icon{
+    font-size: 1.5rem;
+
+}
+#icon2{
+    font-size: 1.5rem;
+}
+.msg{
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    opacity: 0.8;
+    
+}
+.main{
+    background-color: white;
+    height: 100vh;
+    width: 78vw;
+    background-image: url('home_bg.jpg');
+    background-size: cover;
+
+}
+.uper{
+    display: flex;
+    
+}
+.arrow{
+    margin: 2rem;
+    font-size: 1.3rem;
+
+    
+}
+.spotify{
+    margin: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.options{
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+    
+}
+.par{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 6px;
+}
+.write{
+    position: absolute;
+    top: 5.5rem;
+    left: 11.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.liked{
+    height: 34vh;
+    width: 26vw;
+    background-color: aqua;
+    position: absolute;
+    top: 8.7rem;
+    left: 11.2rem;
+    background-image: url('bg1.webp');
+    background-size: cover;
+    border-radius: 3px;
+}
+.text{
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#dot1{
+    font-size: 5px;
+    
+}
+#dot2{
+    font-size: 5px;
+}
+#dot3{
+    font-size: 5px;
+}
+.text2{
+    margin-top: 4.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.text3{
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+}
+.songbox{
+    position: absolute;
+    top: 8.7rem;
+    left: 35rem;
+    height: 34vh;
+    width: 13vw;
+    background-color: rgb(29, 25, 25);
+}
+.boxinbox{
+    margin: 1rem;
+    height: 20vh;
+    width: 10.6vw;
+    background-image: url('box covers/1.jpg');
+    background-size: cover;
+}
+.songnaam{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 650;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+
+}
+.songartist{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.6;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    
+}
+.songbox2{
+    position: absolute;
+    top: 8.7rem;
+    left: 48rem;
+    height: 34vh;
+    width: 13vw;
+    background-color: rgb(29, 25, 25);
+
+}
+.boxinbox2{
+    margin: 1rem;
+    height: 20vh;
+    width: 10.6vw;
+    background-image: url('covers/2.jpg');
+    background-size: cover;
+
+}
+.songbox3{
+    position: absolute;
+    top: 8.7rem;
+    left: 61rem;
+    height: 34vh;
+    width: 13vw;
+    background-color: rgb(29, 25, 25);
+
+}
+.boxinbox3{
+    margin: 1rem;
+    height: 20vh;
+    width: 10.6vw;
+    background-image: url('covers/3.jpg');
+    background-size: cover;
+
+}
+.songbox4{
+    position: absolute;
+    top: 24rem;
+    left: 11rem;
+    height: 34vh;
+    width: 13vw;
+    background-color: rgb(29, 25, 25);
+
+}
+.boxinbox4{
+    margin: 1rem;
+    height: 20vh;
+    width: 10.6vw;
+    background-image: url('covers/4.jpg');
+    background-size: cover;
+
+}
+.songbox5{
+    position: absolute;
+    top: 24rem;
+    left: 24rem;
+    height: 34vh;
+    width: 13vw;
+    background-color: rgb(29, 25, 25);
+
+
+}
+.boxinbox5{
+    margin: 1rem;
+    height: 20vh;
+    width: 10.6vw;
+    background-image: url('covers/5.jpg');
+    background-size: cover;
+
+}
+.songbox6{
+    position: absolute;
+    top: 24rem;
+    left: 37rem;
+    height: 34vh;
+    width: 13vw;
+    background-color: rgb(29, 25, 25);
+
+
+}
+.boxinbox6{
+    margin: 1rem;
+    height: 20vh;
+    width: 10.6vw;
+    background-image: url('covers/6.jpg');
+    background-size: cover;
+}
+.songbox7{
+    position: absolute;
+    top: 24rem;
+    left: 50rem;
+    height: 34vh;
+    width: 13vw;
+    background-color: rgb(29, 25, 25);
+
+
+
+}
+.boxinbox7{
+    margin: 1rem;
+    height: 20vh;
+    width: 10.6vw;
+    background-image: url('covers/7.jpg');
+    background-size: cover;
+
+}
+.songbox8{
+    position: absolute;
+    top: 24rem;
+    left: 63rem;
+    height: 34vh;
+    width: 13vw;
+    background-color: rgb(29, 25, 25);
+
+
+}
+.boxinbox8{
+    margin: 1rem;
+    height: 20vh;
+    width: 10.6vw;
+    background-image: url('covers/8.jpg');
+    background-size: cover;
+
+
+}
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #000000;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 3px solid #c5acac;
+    height: 10vw;
+    width: 30vw; 
+   
+}
+#jj{
+    position: absolute;
+    left: 45vw ;
+    top: 18vw;
+    
+}
+.tt{
+    position: absolute;
+    left: 25vw;
+    top: 22vw;
+    
+         
+}
+#searchInput{
+    width: 25vw;
+    height: 2.5vw;
+}
+
+.close {
+    color: #b19f9f;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#searchButton {
+    background-color: transparent;
+    border: 2px solid rgb(48, 43, 43);
+    color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 7%;
+   
+  }
+  
+  
+  #searchButton:hover {
+    background-color: rgb(61, 51, 51);
+    color: white;
+  }
+  .close{
+    position: absolute;
+    left: 65vw;
+    top: 17vw;
+    font-size: 2rem;
+  }
+
+  
+  
