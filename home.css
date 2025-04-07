@@ -15,10 +15,14 @@ body{
     margin: 1rem;
     }
     
-
+    a {
+        text-decoration: none;
+        color: inherit; 
+    }
 .list{
     list-style-type: none;
     margin-top: 0.5rem;
+    
     }
 .playl{
     font-size: 0.65rem;

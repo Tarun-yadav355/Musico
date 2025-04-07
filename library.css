@@ -110,5 +110,12 @@ audio {
 }
 
 #currentSong {
-    margin-top: 10px;
+    margin-top: 20px;
+    
+}
+.tt{
+    width: 18vw;
+    height: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
 }
